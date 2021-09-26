@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  color: #f0a500;
+  background-color: #082032;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 6em;
+  max-height: 8em;
+}
+.card {
+  display: flex;
+  background: #334756;
+  height: 8em;
+  width: 20em;
+  border-radius: 4px;
+}
+.container {
+  font-family: "Titillium Web", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  row-gap: 2em;
+}
+.content {
+  padding-top: 1em;
+  padding-left: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5em;
+}
+.rate {
+  font-size: 0.8rem;
+}
+button {
+  background: #334756;
+  border: 1px solid #082032;
+  font-family: "Titillium Web", sans-serif;
+  border-radius: 4px;
+  height: 2em;
+  margin: 0.45em;
+}
+h1 {
+  font-family: "Titillium Web", sans-serif;
+}
